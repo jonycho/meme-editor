@@ -4,24 +4,12 @@ This project is made in React. In it you can create personalized memes. You will
 
 ## Live Demo 📱
 
-https://random-password-project.netlify.app/
+https://react-meme-editor.netlify.app/
 
 ## Screenshots 🖼️
 
-![App Screenshot](https://i.postimg.cc/Hx4W4j9X/screen-password.png)
+![image](https://user-images.githubusercontent.com/121981717/232960023-1cacb18e-7eb3-4aa7-b3cc-8b8bbabea728.png)
 
-![App Screenshot 2](https://i.postimg.cc/RhSSP9g8/screen-password2.png)
+![image](https://user-images.githubusercontent.com/121981717/232960170-494aada8-e175-4bac-9d6f-a729edfc0c29.png)
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm install
-  npm start
-```
-## Live Demo 📱
-
-https://humaya-dulce-de-leche.netlify.app/
-## Screenshots 🖼️
 
