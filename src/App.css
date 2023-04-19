@@ -1,0 +1,252 @@
+
+.header{
+    color: #F0F0F0;
+    background:url('../public/imagenes/bg-header.jpg') no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.fondo-transparente{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.contenedor-info-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 60px;
+}
+
+
+.contenedor-explicacion{
+    align-self: center;
+}
+
+    .contenedor-explicacion h2{
+        font-size: 2.5em;
+    margin-bottom: 10px;
+    background-color: #F45050;
+    padding: 5px 20px;
+    display: inline-block;
+    }
+    .contenedor-explicacion p{
+        margin-bottom: 14px;
+    }
+    .contenedor-explicacion span{
+        background-color: #3C486B;
+        padding: 5px;
+        width: 70px;
+        display: inline-block;
+        text-align: center;
+    }
+
+.kid-header{
+    width: 300px;
+}
+
+
+.contenedor-imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-around;
+    background-color: #F0F0F0;
+    padding: 30px;
+}
+
+
+.contenedor-imagenes img{
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid #3C486B;
+    box-shadow: 0px 2px 4px rgb(0,0,0,0.25);
+    transition: 0.5s all;
+}
+
+.contenedor-imagenes img:hover{
+    border: 2px solid #F45050;
+}
+
+.meme {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.meme--image {
+    width:100%;
+    max-width: 600px;
+    border-radius: 3px;
+    display: block;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 7px;
+}
+
+.top {
+    top: 0;
+}
+
+.tituloPasos{
+    background-color: #3C486B;
+    padding: 15px;
+    color: #F9D949;
+}
+
+.contenedor-meme{
+    background-color: #F0F0F0;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contenedor-input > div{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 250px;
+    gap: 10px;
+}
+
+.contenedor-color-alineacion{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-align {
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 2px;
+    background-color: #F45050;
+    color: white;
+    cursor: pointer;
+}
+
+.contenedor-input input[type="text"]{
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.meme-container{
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+
+.contenedor-meme button{
+    border:none;
+    cursor: pointer;
+    background-color: #F45050;
+    padding: 7px 15px;
+    color: #F0F0F0;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor-meme button:hover{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.author{
+    align-self: end;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #191919;
+    color: white;
+}
+
+h4{
+    font-size: 0.75em;
+    
+}
+
+.redes{
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+    display: flex;
+    gap:10px;
+}
+
+.redes a{
+    color:white
+}
+
+.redes a:hover{
+    color:#F45050;
+}
+
+@media (max-width:681px){
+    .contenedor-explicacion{
+        margin-bottom: 50px;
+    }
+    /* .contenedor-explicacion h2{
+        font-size: 1.5em;
+    } */
+    .kid-header{
+        display: none;
+    }
+}
+
+@media (max-width:320px){
+    h1{
+        font-size: 2.5em;
+    }
+    .contenedor-explicacion h2{
+        font-size: 1.5em;
+    }
+    .contenedor-explicacion p{
+        font-size: 0.85em;
+    }
+}
